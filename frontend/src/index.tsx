@@ -7,9 +7,10 @@ import "@fontsource/athiti";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import {
-    createMuiTheme, CssBaseline,
+    createMuiTheme,
+    CssBaseline,
     responsiveFontSizes,
-    ThemeProvider
+    ThemeProvider,
 } from "@material-ui/core";
 
 ReactDOM.render(
@@ -19,8 +20,8 @@ ReactDOM.render(
                 createMuiTheme({
                     palette: {
                         type: "dark",
-                        primary: { main: "#2e7d32" },
-                        secondary: { main: "#b71c1c" },
+                        primary: { main: "#283618" },
+                        secondary: { main: "#bc6c25" },
                     },
                     typography: {
                         h1: { fontFamily: "Julius Sans One" },
@@ -40,7 +41,7 @@ ReactDOM.render(
                 })
             )}
         >
-            <CssBaseline/>
+            <CssBaseline />
             <App />
         </ThemeProvider>
     </React.StrictMode>,

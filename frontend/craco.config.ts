@@ -47,7 +47,7 @@ module.exports = {
                                 "$1blerpsblerg$1frontend"
                             ))
                     );
-                    paths.appIndexJs = paths.appIndexJs.replace(".js", ".tsx")
+                    paths.appIndexJs = paths.appIndexJs.replace(".js", ".tsx");
                     console.log(paths);
 
                     // Always return the config object.
